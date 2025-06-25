@@ -1,0 +1,49 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - check_mood  
+  - bot_challenge
+  - set_goal
+  - reflect_feelings
+  - journal_prompt
+  - ask_cheer_up
+
+responses:
+  utter_greet:
+    - text: "Hey! How are you?"
+  # utter_cheer_up:
+  #   - text: "Here is something to cheer you up:"
+  #     image: "https://i.imgur.com/nGF1K8f.jpg"
+  utter_did_that_help:
+    - text: "Did that help you?"
+  utter_happy:
+    - text: "Great, carry on!"
+  utter_goodbye:
+    - text: "Bye"
+  utter_iamabot:
+    - text: "I am a bot, powered by Rasa."
+  utter_ask_mood:  # <-- Added response for mood check
+    - text: "How do you feel today?"
+  utter_check_mood:
+    - text: "I'm feeling great today!"
+  utter_set_goal:
+    - text: "Your goal has been successfully set."
+  utter_reflect_feelings:
+    - text: "Let's reflect on your feelings."
+  utter_journal_prompt:
+    - text: "How about journaling about something you are grateful for?"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+actions:
+  - action_log_mood  # <-- Custom action to log the mood
+  - action_set_goal
+  - action_cheer_up

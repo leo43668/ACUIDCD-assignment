@@ -1,0 +1,142 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: check_mood
+  examples: |
+    - I feel happy
+    - I feel great
+    - I am sad
+    - I feel tired
+    - I'm glowing
+    - I feel unhappy
+
+- intent: greet
+  examples: |
+    - Hello
+    - Hi
+    - Hey
+- intent: goodbye
+  examples: |
+    - Goodbye
+    - Bye
+    - See you later
+- intent: check_mood
+  examples: |
+    - How are you feeling today?
+    - How do you feel today?
+    - What's your mood today?
+- intent: set_goal
+  examples: |
+    - I want to set a goal
+    - Add a new goal for me
+    - Set a meditation goal
+- intent: reflect_feelings
+  examples: |
+    - Why do I feel this way?
+    - Can you help me reflect on my feelings?
+    - Tell me why I am feeling sad
+- intent: journal_prompt
+  examples: |
+    - I want to journal
+    - Can you give me a journaling prompt?
+    - Help me with my journal
+
+- intent: ask_cheer_up
+  examples: |
+    - I feel down
+    - cheer me up
+    - I'm sad
+    - can you lift my mood?
+    - I need something positive
+
+
+

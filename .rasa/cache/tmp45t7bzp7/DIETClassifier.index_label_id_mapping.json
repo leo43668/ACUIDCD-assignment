@@ -1,0 +1,14 @@
+{
+  "0": "affirm",
+  "1": "ask_cheer_up",
+  "2": "bot_challenge",
+  "3": "check_mood",
+  "4": "deny",
+  "5": "goodbye",
+  "6": "greet",
+  "7": "journal_prompt",
+  "8": "mood_great",
+  "9": "mood_unhappy",
+  "10": "reflect_feelings",
+  "11": "set_goal"
+}

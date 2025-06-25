@@ -1,0 +1,10 @@
+[
+  {
+    "text": "I am sad",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "check_mood",
+      "confidence": 0.5271453857421875
+    }
+  }
+]

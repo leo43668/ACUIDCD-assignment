@@ -1,0 +1,24 @@
+# Backend dependencies
+Django==5.2.3
+djangorestframework==3.14.0
+rasa==3.0.0
+textblob==0.15.3
+nltk==3.7
+asgiref==3.5.0
+requests==2.26.0
+pytz==2021.1
+
+# For Database
+
+
+# Frontend dependencies (React)
+react==18.2.0
+react-dom==18.2.0
+react-scripts==5.0.0
+axios==0.24.0
+chart.js==3.7.0
+react-chartjs-2==4.0.0
+
+# Development tools
+django-cors-headers==3.10.0
+
