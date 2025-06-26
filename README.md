@@ -168,11 +168,11 @@ For deployment, you can use the following:
 
 1. **Django Backend Deployment**:
 
-  Google Cloud 
+  AWS
 
 2. **React Frontend Deployment**:
 
-   Goolge Cloud
+   AWS
 
 Make sure the backend and frontend URLs are updated in production to avoid CORS issues.
 
