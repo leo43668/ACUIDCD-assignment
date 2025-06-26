@@ -1,6 +1,6 @@
 
 ````markdown
-# Mental Health App - README
+# Mental Health Avatar App - README
 
 This project is a Mental Health Avatar App that evolves based on the user's emotional wellbeing, daily habits, and relationships. It integrates a Rasa chatbot for reflection, goal tracking, journal entries, and progress tracking.
 
@@ -24,8 +24,8 @@ Follow the steps below to set up and run the project locally.
 ### 1. Clone the Repository
 
 ```bash
-git clone git@github.com:B8-Cloud/mental-app.git
-cd mental-app
+git clone github.com/leo43668/ACUIDCD-assignment
+cd ACUIDCD-assignment
 ````
 
 ### 2. Virtual Environment Setup
@@ -168,13 +168,11 @@ For deployment, you can use the following:
 
 1. **Django Backend Deployment**:
 
-   * **Heroku**: Follow [Heroku’s documentation](https://devcenter.heroku.com/articles/getting-started-with-python) to deploy Django.
-   * **AWS/Other Platforms**: You can use **EC2**, **Elastic Beanstalk**, or any other cloud platform.
+  Google Cloud 
 
 2. **React Frontend Deployment**:
 
-   * **Netlify/Vercel**: For easy deployment of React apps, you can deploy directly to **Netlify** or **Vercel**.
-   * **AWS Amplify**: For a more AWS-integrated solution.
+   Goolge Cloud
 
 Make sure the backend and frontend URLs are updated in production to avoid CORS issues.
 
@@ -208,4 +206,3 @@ Make sure the backend and frontend URLs are updated in production to avoid CORS 
   ```
 
 * **Environment variables**: If you're using **Rasa**, you may need to configure **Rasa endpoints** and **API keys** in `.env` or `credentials.yml`.
-
