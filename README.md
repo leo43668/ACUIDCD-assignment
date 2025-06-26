@@ -1,6 +1,6 @@
 
 ````markdown
-# Mental Health Avatar App - README
+# Mental Health App - README
 
 This project is a Mental Health Avatar App that evolves based on the user's emotional wellbeing, daily habits, and relationships. It integrates a Rasa chatbot for reflection, goal tracking, journal entries, and progress tracking.
 

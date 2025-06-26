@@ -46,4 +46,8 @@ stories:
     - action: action_cheer_up
     - action: utter_did_that_help
 
+- story: Fallback
+  steps:
+  - intent: nlu_fallback
+  - action: utter_default
 

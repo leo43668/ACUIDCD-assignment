@@ -38,6 +38,8 @@ responses:
     - text: "Let's reflect on your feelings."
   utter_journal_prompt:
     - text: "How about journaling about something you are grateful for?"
+  utter_default:
+  - text: I'm sorry, I don't have information on that. How else can I assist?
 
 session_config:
   session_expiration_time: 60
