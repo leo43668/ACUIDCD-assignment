@@ -131,7 +131,7 @@ rasa run
 
 ```bash
 # Start the Rasa action server
-rasa run actions
+rasa run --enable-api --cors "*" --debug
 ```
 
 ---
